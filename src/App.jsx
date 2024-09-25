@@ -4,7 +4,13 @@ function App() {
   return (
     <>
       <Header />
-      <Outlet />
+
+      { /* Separação entre header e conteúdo */ }
+      <div className="mt-24"></div>
+
+      <Outlet/>
+
+      { /* Footer */}
     </>
   )
 }
