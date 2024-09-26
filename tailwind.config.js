@@ -24,8 +24,13 @@ export default {
     },
     dropShadow: {
       "banner": "0 0px 20px white"
+    },
+    brightness: {
+      "25": "0.25"
+    },
+    top: {
+      "banner": "26rem"
     }
-    
   },
   plugins: [
     animate
