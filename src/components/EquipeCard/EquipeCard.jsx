@@ -3,12 +3,12 @@ function EquipeCard({ equipes }) {
     const equipesIds = Object.keys(equipes);
 
     return (
-        <div className="container">
+        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
             {
                 equipesIds.map((equipeId) => (
-                    <div className="w-full h-32 flex gap-8 items-center border px-12 py-6 md:w-1/2">
-                        <div className="w-max h-32 flex items-center justify-center">
+                    <div className="w-full h-32 flex gap-8 items-center border px-12 py-6">
+                        <div className="w-max h-28 flex items-center justify-center">
                             <img src={equipes[equipeId]["img"]} alt="" className="w-44 h-auto" />
                         </div>
 
