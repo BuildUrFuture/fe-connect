@@ -74,8 +74,8 @@ function Equipes() {
 
 
     return (
-        <div className="mx-auto container px-2 mt-32 sm:px-1 h-screen">
-            <div id="titles" class="w-full mb-12">
+        <div className="mx-auto container px-2 mt-32 sm:px-1 h-max md:h-screen">
+            <div id="titles" className="w-full mb-12">
                 <h1 className="text-4xl font-bold">Equipes</h1>
                 <h3 className="font-bold text-opacity-85 text-black">Descubra o seu time!</h3>
             </div>
