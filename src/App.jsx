@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom"
 import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
 function App() {
   return (
     <>
@@ -9,8 +10,7 @@ function App() {
       <div className="mt-24"></div>
 
       <Outlet/>
-
-      { /* Footer */}
+      <Footer/>
     </>
   )
 }

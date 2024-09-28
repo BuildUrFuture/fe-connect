@@ -5,7 +5,7 @@ import App from './App';
 import './index.css';
 import Equipes from './pages/Equipes/Equipes';
 import Home from './pages/Home/Home';
-import Login from './pages/Login/Login';
+import Transmissoes from './pages/Transmissoes/Transmissoes';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +13,8 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <Home /> },
-      { path: "/login", element: <Login /> },
       { path: "/equipes", element: <Equipes /> },
+      { path: "/transmissoes", element: <Transmissoes /> },
     ]
   },
 ]);

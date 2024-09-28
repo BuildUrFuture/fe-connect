@@ -34,7 +34,6 @@ function Header() {
                                 </NavLink>
                             </li>))
                     }
-                    <NavLink to={"/login"} className='btn bg-blue-600 text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static hover:bg-opacity-75 hover:shadow-2xl hover:text-neutral-50 hover:duration-700'>Entrar</NavLink>
                 </ul>
             </div>
         </div>

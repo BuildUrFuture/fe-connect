@@ -12,10 +12,6 @@ function Home() {
                         Desafie-se, divirta-se e contribua: a Fórmula E é mais do que uma corrida!
                     </h1>
                 </div>
-
-            </div>
-            <div className="mx-auto container">
-                <h1 id="item1" className="text-3xl font-bold underline">Olá Home</h1>
             </div>
         </>
     );
